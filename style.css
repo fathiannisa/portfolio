@@ -1,0 +1,250 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #333;
+}
+
+.hero {
+  background: #2d3436;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero .btn {
+  background: #0984e3;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.projects, .contact {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.project-card a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #dfe6e9;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact-icons .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.contact-icons .icon:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Specific brand colors */
+.contact-icons .linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.contact-icons .linkedin:hover {
+  background-color: #005582;
+}
+
+.contact-icons .github {
+  background-color: #333;
+  color: white;
+}
+
+.contact-icons .github:hover {
+  background-color: #000;
+}
+
+.skills {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.skills h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill-item {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+}
+
+.skill-item img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 6px;
+}
+
+.tech-python {
+  font-weight: bold;
+  font-size: 0.85rem;
+  background-color: #e1b33c;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.tech-pandas {
+  font-weight: bold;
+  font-size: 0.85rem;
+  background-color: #8a90c0;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.tech-sql {
+  font-weight: bold;
+  font-size: 0.85rem;
+  background-color: #3b799c;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.tech-excel {
+  font-weight: bold;
+  font-size: 0.85rem;
+  background-color: #5baa9d;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.tech-tableau {
+  font-weight: bold;
+  font-size: 0.85rem;
+  background-color: #d87659;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about-me {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-me h2 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.about-me p {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* For About Me Section */
+.about-me {
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 10px; /* Reduce the bottom margin */
+  padding: 1rem; /* Reduce the padding */
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* For Skills Section */
+.skills {
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 10px; /* Reduce the bottom margin */
+  padding: 1rem; /* Reduce padding if necessary */
+}
+
+/* For Projects Section */
+.projects {
+  margin-top: 0; /* Remove top margin */
+  padding: 1rem; /* Reduce padding */
+}
+
+/* Optional: Adjust the spacing between project cards */
+.project-card {
+  margin-bottom: 0.5rem; /* Reduce space between cards */
+}
+
+/* Optional: Reduce space at the bottom of the footer */
+footer {
+  margin-top: 20px;
+}
