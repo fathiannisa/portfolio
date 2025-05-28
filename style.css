@@ -274,85 +274,112 @@ footer {
 }
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clear Color Example</title>
+  <style>
+    /* Reset some default margins and paddings */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-/* Reset some default margins and paddings */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333; /* base text color */
+      line-height: 1.5;
+      padding: 20px;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.5;
-  padding: 20px;
-}
+    /* Header styling */
+    header.hero {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+    }
 
-/* Header styling */
-header.hero {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
-  max-width: 600px;
-  margin: 0 auto 40px auto;
-}
+    header.hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #222; /* slightly darker for emphasis */
+    }
 
-header.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
+    header.hero p {
+      font-size: 1.1rem;
+      margin-bottom: 10px; /* less space between header subtitle and next section */
+      color: #222; /* darker for better clarity */
+    }
 
-header.hero p {
-  font-size: 1.1rem;
-  margin-bottom: 10px; /* less space between header subtitle and next section */
-  color: #555;
-}
+    /* Contact section */
+    section.contact {
+      background-color: #fff;
+      padding: 30px 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+      color: #333; /* keep base text color */
+    }
 
-/* Contact section */
-section.contact {
-  background-color: #fff;
-  padding: 30px 20px;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
-}
+    section.contact h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #222; /* darker heading */
+    }
 
-section.contact h2 {
-  text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-}
+    /* Paragraph spacing */
+    p {
+      margin-bottom: 10px; /* reduced space between paragraphs */
+      color: #333; /* ensure paragraph text is clear */
+    }
 
-/* Paragraph spacing */
-p {
-  margin-bottom: 10px; /* reduced space between paragraphs */
-}
+    /* Contact icons */
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
 
-/* Contact icons */
-.contact-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
+    /* Just example styling for icons */
+    .contact-icons svg {
+      width: 32px;
+      height: 32px;
+      fill: #222; /* icon color for clarity */
+      cursor: pointer;
+      transition: fill 0.3s ease;
+    }
 
-.contact-icons .icon {
-  font-size: 2rem;
-  color: #333;
-  transition: color 0.3s ease;
-  text-decoration: none;
-}
+    .contact-icons svg:hover {
+      fill: #007BFF; /* change color on hover for interaction */
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Welcome to My Site</h1>
+    <p>Your subtitle or tagline goes here</p>
+  </header>
 
-.contact-icons .icon:hover {
-  color: #0077b5; /* LinkedIn blue */
-}
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out via any of the platforms below.</p>
 
-/* Specific icon colors */
-.icon.github:hover {
-  color: #333; /* Github black */
-}
-
+    <div class="contact-icons">
+      <!-- Example icons (SVG placeholders) -->
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+      <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16"/></svg>
+      <svg viewBox="0 0 24 24"><polygon points="12,2 22,22 2,22"/></svg>
+    </div>
+  </section>
+</body>
+</html>
