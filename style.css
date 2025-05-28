@@ -1,3 +1,9 @@
+.hero {
+  background-color: skyblue; /* sets background color */
+  color: white; /* optional: make text white so it stands out */
+  padding: 20px; /* add some spacing inside */
+  border-radius: 8px; /* optional: round corners */
+}
 
 body {
   font-family: Arial, sans-serif;
