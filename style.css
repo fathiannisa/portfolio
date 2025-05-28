@@ -259,21 +259,3 @@ footer {
   margin-top: 20px;
 }
 
-.hero {
-  background-color: skyblue;
-  color: white;
-  text-align: center;
-  padding: 50px 20px;
-  font-family: 'Arial', sans-serif;
-}
-
-.hero h1 {
-  margin: 0;
-  font-size: 3rem;
-}
-
-.hero p {
-  margin-top: 10px;
-  font-size: 1.5rem;
-}
-
