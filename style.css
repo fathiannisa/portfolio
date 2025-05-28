@@ -274,3 +274,85 @@ footer {
 }
 
 
+
+/* Reset some default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Header styling */
+header.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+header.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 10px; /* less space between header subtitle and next section */
+  color: #555;
+}
+
+/* Contact section */
+section.contact {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+}
+
+section.contact h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 10px; /* reduced space between paragraphs */
+}
+
+/* Contact icons */
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-icons .icon {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-icons .icon:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+/* Specific icon colors */
+.icon.github:hover {
+  color: #333; /* Github black */
+}
+
