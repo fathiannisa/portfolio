@@ -1,9 +1,21 @@
-.hero {
-  background-color: skyblue; /* sets background color */
-  color: white; /* optional: make text white so it stands out */
-  padding: 20px; /* add some spacing inside */
-  border-radius: 8px; /* optional: round corners */
-}
+<style>
+  .hero {
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+</style>
+
+<header class="hero">
+  <h1>Fathiannisa</h1>
+  <p>Junior Data Analyst | Jakarta, Indonesia</p>
+  <section class="contact">
+    <h2>Contact</h2>
+    <!-- contact links -->
+  </section>
+</header>
+
 
 body {
   font-family: Arial, sans-serif;
