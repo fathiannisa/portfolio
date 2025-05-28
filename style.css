@@ -1,20 +1,12 @@
-.hero {
-  background-color: skyblue;
-  color: white;
-  text-align: center;
-  padding: 50px 20px;
-  font-family: 'Arial', sans-serif;
-}
-
-.hero h1 {
-  margin: 0;
-  font-size: 3rem;
-}
-
-.hero p {
-  margin-top: 10px;
-  font-size: 1.5rem;
-}
+<style>
+  .hero {
+    background-color: skyblue !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 50px 20px !important;
+    font-family: Arial, sans-serif !important;
+  }
+</style>
 
 
 
