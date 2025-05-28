@@ -1,11 +1,22 @@
-<style>
-  .hero {
-    background-color: #90003C !important;
-    color: white !important;
-    text-align: center !important;
-    padding: 50px 20px !important;
-  }
-</style>
+.hero {
+  background-color: #90003C;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: #d1a0a0;
+}
+
 
 body {
   font-family: Arial, sans-serif;
