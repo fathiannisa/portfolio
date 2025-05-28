@@ -1,12 +1,10 @@
 <style>
-.hero {
-  background-color: #90003C;
-  color: white; /* keep the text visible */
-  text-align: center;
-  padding: 50px 20px;
-  font-family: Arial, sans-serif;
-}
-
+  .hero {
+    background-color: #90003C !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 50px 20px !important;
+  }
 </style>
 
 body {
